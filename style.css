@@ -1,0 +1,375 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.page-header p {
+  color: aqua;
+  font-family: ui-sans-serif;
+  font-style: oblique;
+  font-size: 30px;
+  font-stretch: 100px;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h1::after {
+  font-family: Impact;
+  content: none;
+  color: #8ac4ff;
+  margin-left: 5px;
+}
+
+h2 {
+  font-size: 170%;
+  margin: 5px 50px;
+ 
+}
+
+h2::before {
+  font-family: Impact;
+  content: '\273A';
+  color: #772014;
+  margin-right: 5px;
+}
+
+h3 {
+  font-size: 108%;
+  margin: 2px 50px;
+  
+}
+
+h3::before {
+  font-family: Impact;
+  content: '\273A';
+  color: rgb(241, 241, 149);
+  margin-right: 5px;
+}
+
+h4 {
+  font-size: 100%;
+  margin: 10px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-style: italic;
+  background-color: #da55a3;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  background-color: #d8a47f;
+  justify-content: right;
+ 
+}
+
+nav  li::before {
+  content: '\273A';
+  color: #d81085;
+  padding: 0;
+  margin: 2px;
+  font-family: cursive;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0.4%;
+  margin: 0%;
+  
+}
+
+nav li {
+  padding: 0 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+nav a {
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  color: #13293d;
+  font-size: 100%;
+  padding: 1.5%;
+  margin: 0;
+  border: 5%;
+}
+
+nav a:hover {
+  color: #fff;
+  font-size: 120%;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 1.5%;
+}
+
+
+section {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.contact-me {
+  flex: 3;
+  background-color: #e69c9c;
+  padding: 20px;
+}
+
+.sample-img1 img {
+  background-color: white;
+  width: 220px;
+  height: 220px;
+  padding: 5px;
+  border: 1px solid black;
+  transform: rotate(0deg);
+  border-radius: 20px;
+  box-shadow: 0 15px 15px rgb(243, 6, 6);
+}
+
+.scale {
+  transform:none;
+}
+
+.about-me p{
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+
+}
+
+span[data-descr] {
+  position: relative;
+  text-decoration: underline;
+  color: #000;
+  cursor: grab;
+}
+
+span[data-descr]:hover::after {
+  content: attr(data-descr);
+  position: absolute;
+  left: 0px;
+  bottom: 24px;
+  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  background-color: #13293d;
+  padding: 12px;
+  color: #fff;
+  font-size: 80%;
+  z-index: 1;
+}
+.sample-img2{
+position: relative;
+display: inline-block;
+padding-left: 4%;
+margin: 0;
+}
+
+.sample-img2:hover img{
+  transform: scale(1.2);
+  transition: transform 0.2s ease-out;
+}
+
+.sample-img2 a{
+position: absolute;
+bottom:0;
+left:0;
+background-color: white;
+width: 60%;
+height: 13%;
+font-size: 100%;
+text-align: center;
+display: none;
+z-index: 2;
+}
+
+.sample-img2:active img {
+  transform: scale(1.1);
+}
+
+.sample-img2:hover a {
+  display: block;
+}
+
+
+.sample-img2 image {
+  position: center;
+  display: inline-block;
+  background-color: white;
+  width: 220px;
+  height: 220px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 1%;
+  margin: 5%;
+  padding: 1%;
+  font-size: 100%;
+  color: #13293d;
+  background-color: #fff;
+  border: 2px solid #13293d;
+  
+}
+
+button:hover {
+  background-color: #772014;
+  color: #fff;
+}
+
+button:active {
+  font-size: 150%;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+button:focus {
+  outline: none;
+  border-color: #8ac4ff;
+}
+
+.Prod-Eng ul {
+margin-left: 5%;
+list-style: square;
+font-size: 15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: blue;
+}
+
+.Prod-Eng p {
+  font-size: 100%;
+  margin: 20px;
+  font-family: serif;
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+  background-color: rgb(204, 204, 248); 
+}
+
+.resources .links {
+  display: none;
+  padding: 5% 10;
+  margin: 5%;
+}
+
+.resources:hover .links {
+  display: block;
+}
+
+
+.Proc-Eng ul {
+  margin-left: 5%;
+  list-style: square;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(233, 53, 53);
+  }
+
+.Proc-Eng p {
+  font-size: 100%;
+  margin: 20px;
+  font-family: serif;
+  text-align: center;
+  background-color: rgb(245, 159, 216);
+  text-decoration: underline;
+  color: black;
+  
+  }
+
+.Col-Lec ul {
+  margin-left: 5%;
+  list-style: square;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: green;
+    }
+
+.Col-Lec p {
+  font-size: 100%;
+  margin: 20px;
+  font-family: serif;
+  text-align: center;
+  background-color: rgb(190, 240, 190);
+  text-decoration: underline;
+  color: rgb(6, 65, 6);
+    }
+
+ .Che-Eng ul {
+  margin-left: 5%;
+  list-style: square;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: magenta;
+      
+      }
+
+  .Che-Eng p {
+    font-size: 100%;
+    margin: 20px;
+    font-family: serif;
+    text-align: center;
+    background-color: rgb(247, 200, 247);
+    text-decoration: underline;
+    color: red;
+
+      }
+
+footer {
+  display: flex;
+  padding: 0.3%;
+  justify-content: center;
+  background: #13293d;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  }
+  /* Make the sidebar stack below the body */
+  aside {
+    order: 2;
+  }
+  /* Change the header background */
+  header {
+    background: #772014;
+  }
+  /* Change the navbar and footer background */
+  nav,
+  footer {
+    background-color: #bb8588;
+  }
+}
