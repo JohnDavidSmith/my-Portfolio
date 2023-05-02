@@ -21,7 +21,7 @@
 
 * GitHub link to my repo.
 
-![My repo on GitHub](https://github.com/JohnDavidSmith/my-Portfolio)
+![My Website on GitHub](https://johndavidsmith.github.io/my-Portfolio/)
 
 ## Credits
 
