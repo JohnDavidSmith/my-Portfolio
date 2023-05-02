@@ -4,6 +4,9 @@
 }
 
 body {
+  background-image: url("./teddy-bear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial;
   margin: 0;
   display: flex;
@@ -14,8 +17,9 @@ body {
 
 header {
   padding: 40px;
+  margin: 1%;
   text-align: center;
-  background: #13293d;
+  background: none;
   color: #fff;
   line-height: 1.5;
 }
@@ -29,7 +33,7 @@ header {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 190%;
 }
 
 h1::after {
@@ -42,6 +46,7 @@ h1::after {
 h2 {
   font-size: 170%;
   margin: 5px 50px;
+  color: white;
  
 }
 
@@ -49,6 +54,7 @@ h2::before {
   font-family: Impact;
   content: '\273A';
   color: #772014;
+  background-color: white;
   margin-right: 5px;
 }
 
@@ -122,18 +128,28 @@ nav a:hover {
 
 
 main {
+  background-image: url("./teddy-bear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
 }
 
 aside {
+  background-image: url("./teddy-bear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   flex: 1;
   background-color: #b9c6ae;
   padding: 1.5%;
+
 }
 
 
 section {
+  background-image: url("./sun-set.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   flex: 3;
   background-color: #fff;
   padding: 20px;
@@ -166,13 +182,14 @@ section {
   margin-bottom: 10px;
   margin-right: 0;
   margin-left: 0;
+  color: white;
 
 }
 
 span[data-descr] {
   position: relative;
   text-decoration: underline;
-  color: #000;
+  color: white;
   cursor: grab;
 }
 
@@ -225,7 +242,7 @@ z-index: 2;
 
 .sample-img2 image {
   position: center;
-  display: inline-block;
+  display: block;
   background-color: white;
   width: 220px;
   height: 220px;
@@ -260,11 +277,13 @@ button:focus {
 }
 
 .Prod-Eng ul {
-margin-left: 5%;
-list-style: square;
+margin: 4%;
+list-style: none;
 font-size: 15px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: blue;
+background-color: white;
+text-decoration: none;
 }
 
 .Prod-Eng p {
@@ -289,11 +308,13 @@ color: blue;
 
 
 .Proc-Eng ul {
-  margin-left: 5%;
-  list-style: square;
+  margin: 4%;
+  list-style: none;
   font-size: 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(233, 53, 53);
+  background-color: white;
+  text-decoration: none;
   }
 
 .Proc-Eng p {
@@ -308,11 +329,13 @@ color: blue;
   }
 
 .Col-Lec ul {
-  margin-left: 5%;
-  list-style: square;
+  margin: 4%;
+  list-style: none;
   font-size: 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: green;
+  background-color: white;
+  text-decoration: none;
     }
 
 .Col-Lec p {
@@ -326,11 +349,13 @@ color: blue;
     }
 
  .Che-Eng ul {
-  margin-left: 5%;
-  list-style: square;
+  margin: 4%;
+  list-style: none;
   font-size: 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: magenta;
+  background-color: white;
+  text-decoration: none;
       
       }
 

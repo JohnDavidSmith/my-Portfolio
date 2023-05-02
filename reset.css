@@ -9,6 +9,9 @@ html {
 }
 
 body {
+  background-image: url("./teddy-bear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100%;
   line-height: 1;
   font-family: sans-serif;
