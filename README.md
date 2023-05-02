@@ -19,9 +19,9 @@
 
 ![My-Website](./assets/My-Website.png)
 
-* GitHub link to my repo.
+* GitHub link to my Website.
 
-![My Website on GitHub](https://johndavidsmith.github.io/my-Portfolio/)
+[My Website on GitHub](https://johndavidsmith.github.io/my-Portfolio/)
 
 ## Credits
 
